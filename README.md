@@ -38,7 +38,7 @@ To run the project locally, follow these steps:
    ```
 3. Open `index.html` in your preferred web browser.
 
-> You can also preview the game by visiting the following link: [Play Pig Game](http://kislev.me/pig_game)
+> You can also preview the game by visiting the following link: [Play Pig Game](http://kislev.me/pig-game)
 
 ## How to Play
 
