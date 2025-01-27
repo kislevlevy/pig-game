@@ -51,12 +51,11 @@ btnRoll.addEventListener('click', function () {
   if (gameRunning) {
     const diceRandom = Math.trunc(Math.random() * 6) + 1;
     dicePic.classList.remove('hidden');
-    dicePic.src = `dice-${diceRandom}.png`;
+    dicePic.src = `src/img/dice-${diceRandom}.png`;
 
     if (diceRandom !== 1) {
       currentScore += diceRandom;
-      document.getElementById(`current--${activePlayer}`).textContent =
-        currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent = currentScore;
     } else {
       playerchange();
     }
