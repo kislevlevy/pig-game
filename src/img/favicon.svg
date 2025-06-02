@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dice background with rounded corners -->
+  <rect x="2" y="2" width="28" height="28" rx="4" ry="4" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Dice dots (showing 5 - a common dice face) -->
+  <!-- Top-left dot -->
+  <circle cx="10" cy="10" r="2.5" fill="#333333"/>
+  <!-- Top-right dot -->
+  <circle cx="22" cy="10" r="2.5" fill="#333333"/>
+  <!-- Center dot -->
+  <circle cx="16" cy="16" r="2.5" fill="#333333"/>
+  <!-- Bottom-left dot -->
+  <circle cx="10" cy="22" r="2.5" fill="#333333"/>
+  <!-- Bottom-right dot -->
+  <circle cx="22" cy="22" r="2.5" fill="#333333"/>
+</svg>
